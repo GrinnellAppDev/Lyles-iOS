@@ -31,8 +31,8 @@
 		FAF4E8A31CC99CCB00276C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAF4E8A51CC99CCB00276C8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAF4E8A61CC99CCB00276C8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAF4E8A81CC99CCB00276C8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAF4E8A91CC99CCB00276C8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAF4E8A81CC99CCB00276C8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Lyles/ViewController.h; sourceTree = "<group>"; };
+		FAF4E8A91CC99CCB00276C8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Lyles/ViewController.m; sourceTree = "<group>"; };
 		FAF4E8AC1CC99CCB00276C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF4E8AE1CC99CCB00276C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF4E8B11CC99CCB00276C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,10 +81,10 @@
 		FAF4E8A11CC99CCB00276C8B /* Lyles */ = {
 			isa = PBXGroup;
 			children = (
+				FAF4E8C81CC99D6300276C8B /* View Controllers */,
+				FAF4E8C71CC99D1400276C8B /* Models */,
 				FAF4E8A51CC99CCB00276C8B /* AppDelegate.h */,
 				FAF4E8A61CC99CCB00276C8B /* AppDelegate.m */,
-				FAF4E8A81CC99CCB00276C8B /* ViewController.h */,
-				FAF4E8A91CC99CCB00276C8B /* ViewController.m */,
 				FAF4E8AB1CC99CCB00276C8B /* Main.storyboard */,
 				FAF4E8AE1CC99CCB00276C8B /* Assets.xcassets */,
 				FAF4E8B01CC99CCB00276C8B /* LaunchScreen.storyboard */,
@@ -109,6 +109,23 @@
 				FAF4E8BE1CC99CCB00276C8B /* Info.plist */,
 			);
 			path = LylesTests;
+			sourceTree = "<group>";
+		};
+		FAF4E8C71CC99D1400276C8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FAF4E8C81CC99D6300276C8B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4E8A81CC99CCB00276C8B /* ViewController.h */,
+				FAF4E8A91CC99CCB00276C8B /* ViewController.m */,
+			);
+			name = "View Controllers";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
