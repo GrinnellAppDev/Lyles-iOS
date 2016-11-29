@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA676BAB1DE3E27D0009086F /* BeerMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */; };
 		FA676BAD1DE3E3140009086F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA676BAC1DE3E3140009086F /* Main.storyboard */; };
+		FA676BB01DE3E4D20009086F /* LYLEBeer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676BAF1DE3E4D20009086F /* LYLEBeer.m */; };
 		FAF4E8A41CC99CCB00276C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4E8A31CC99CCB00276C8B /* main.m */; };
 		FAF4E8A71CC99CCB00276C8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4E8A61CC99CCB00276C8B /* AppDelegate.m */; };
 		FAF4E8AF1CC99CCB00276C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF4E8AE1CC99CCB00276C8B /* Assets.xcassets */; };
@@ -27,9 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA676BA91DE3E27D0009086F /* BeerMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerMenuTableViewController.h; sourceTree = "<group>"; };
-		FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerMenuTableViewController.m; sourceTree = "<group>"; };
+		FA676BA91DE3E27D0009086F /* BeerMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeerMenuTableViewController.h; path = Lyles/BeerMenuTableViewController.h; sourceTree = "<group>"; };
+		FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeerMenuTableViewController.m; path = Lyles/BeerMenuTableViewController.m; sourceTree = "<group>"; };
 		FA676BAC1DE3E3140009086F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		FA676BAE1DE3E4D20009086F /* LYLEBeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLEBeer.h; sourceTree = "<group>"; };
+		FA676BAF1DE3E4D20009086F /* LYLEBeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLEBeer.m; sourceTree = "<group>"; };
 		FAF4E89F1CC99CCB00276C8B /* Lyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF4E8A31CC99CCB00276C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAF4E8A51CC99CCB00276C8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,12 +88,8 @@
 				FAF4E8C71CC99D1400276C8B /* Models */,
 				FAF4E8A51CC99CCB00276C8B /* AppDelegate.h */,
 				FAF4E8A61CC99CCB00276C8B /* AppDelegate.m */,
-				FA676BA91DE3E27D0009086F /* BeerMenuTableViewController.h */,
-				FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */,
-				FAF4E8AE1CC99CCB00276C8B /* Assets.xcassets */,
 				FA676BAC1DE3E3140009086F /* Main.storyboard */,
 				FAF4E8B01CC99CCB00276C8B /* LaunchScreen.storyboard */,
-				FAF4E8B31CC99CCB00276C8B /* Info.plist */,
 				FAF4E8A21CC99CCB00276C8B /* Supporting Files */,
 			);
 			path = Lyles;
@@ -99,6 +98,8 @@
 		FAF4E8A21CC99CCB00276C8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAF4E8AE1CC99CCB00276C8B /* Assets.xcassets */,
+				FAF4E8B31CC99CCB00276C8B /* Info.plist */,
 				FAF4E8A31CC99CCB00276C8B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -116,6 +117,8 @@
 		FAF4E8C71CC99D1400276C8B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FA676BAE1DE3E4D20009086F /* LYLEBeer.h */,
+				FA676BAF1DE3E4D20009086F /* LYLEBeer.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -123,6 +126,8 @@
 		FAF4E8C81CC99D6300276C8B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA676BA91DE3E27D0009086F /* BeerMenuTableViewController.h */,
+				FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */,
 			);
 			name = "View Controllers";
 			path = ..;
@@ -229,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA676BAB1DE3E27D0009086F /* BeerMenuTableViewController.m in Sources */,
+				FA676BB01DE3E4D20009086F /* LYLEBeer.m in Sources */,
 				FAF4E8A71CC99CCB00276C8B /* AppDelegate.m in Sources */,
 				FAF4E8A41CC99CCB00276C8B /* main.m in Sources */,
 			);
