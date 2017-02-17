@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		688464C61E56937700441D0D /* PubCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688464BD1E56937700441D0D /* PubCore.framework */; };
+		688464CD1E56937700441D0D /* PubCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688464CC1E56937700441D0D /* PubCoreTests.m */; };
+		688464CF1E56937700441D0D /* PubCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 688464BF1E56937700441D0D /* PubCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688464D21E56937700441D0D /* PubCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688464BD1E56937700441D0D /* PubCore.framework */; };
+		688464D31E56937700441D0D /* PubCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 688464BD1E56937700441D0D /* PubCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA2163781DF65546001011A3 /* BeerMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2163761DF6545B001011A3 /* BeerMenuTableViewCell.m */; };
 		FA676BAB1DE3E27D0009086F /* BeerMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */; };
 		FA676BAD1DE3E3140009086F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA676BAC1DE3E3140009086F /* Main.storyboard */; };
@@ -19,6 +24,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		688464C71E56937700441D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688464BC1E56937700441D0D;
+			remoteInfo = PubCore;
+		};
+		688464C91E56937700441D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF4E89E1CC99CCB00276C8B;
+			remoteInfo = Lyles;
+		};
+		688464D01E56937700441D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688464BC1E56937700441D0D;
+			remoteInfo = PubCore;
+		};
 		FAF4E8B91CC99CCB00276C8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
@@ -28,7 +54,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		688464D91E56937700441D0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				688464D31E56937700441D0D /* PubCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		688464BD1E56937700441D0D /* PubCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PubCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688464BF1E56937700441D0D /* PubCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PubCore.h; sourceTree = "<group>"; };
+		688464C01E56937700441D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688464C51E56937700441D0D /* PubCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PubCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		688464CC1E56937700441D0D /* PubCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PubCoreTests.m; sourceTree = "<group>"; };
+		688464CE1E56937700441D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2163751DF6545B001011A3 /* BeerMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerMenuTableViewCell.h; sourceTree = "<group>"; };
 		FA2163761DF6545B001011A3 /* BeerMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerMenuTableViewCell.m; sourceTree = "<group>"; };
 		FA676BA91DE3E27D0009086F /* BeerMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeerMenuTableViewController.h; path = Lyles/BeerMenuTableViewController.h; sourceTree = "<group>"; };
@@ -49,10 +95,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		688464B91E56937700441D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688464C21E56937700441D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688464C61E56937700441D0D /* PubCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAF4E89C1CC99CCB00276C8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688464D21E56937700441D0D /* PubCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +128,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		688464BE1E56937700441D0D /* PubCore */ = {
+			isa = PBXGroup;
+			children = (
+				688464BF1E56937700441D0D /* PubCore.h */,
+				688464C01E56937700441D0D /* Info.plist */,
+			);
+			path = PubCore;
+			sourceTree = "<group>";
+		};
+		688464CB1E56937700441D0D /* PubCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				688464CC1E56937700441D0D /* PubCoreTests.m */,
+				688464CE1E56937700441D0D /* Info.plist */,
+			);
+			path = PubCoreTests;
+			sourceTree = "<group>";
+		};
 		FA2163791DF65556001011A3 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +160,8 @@
 			children = (
 				FAF4E8A11CC99CCB00276C8B /* Lyles */,
 				FAF4E8BB1CC99CCB00276C8B /* LylesTests */,
+				688464BE1E56937700441D0D /* PubCore */,
+				688464CB1E56937700441D0D /* PubCoreTests */,
 				FAF4E8A01CC99CCB00276C8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +171,8 @@
 			children = (
 				FAF4E89F1CC99CCB00276C8B /* Lyles.app */,
 				FAF4E8B81CC99CCB00276C8B /* LylesTests.xctest */,
+				688464BD1E56937700441D0D /* PubCore.framework */,
+				688464C51E56937700441D0D /* PubCoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +232,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		688464BA1E56937700441D0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688464CF1E56937700441D0D /* PubCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		688464BC1E56937700441D0D /* PubCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688464D81E56937700441D0D /* Build configuration list for PBXNativeTarget "PubCore" */;
+			buildPhases = (
+				688464B81E56937700441D0D /* Sources */,
+				688464B91E56937700441D0D /* Frameworks */,
+				688464BA1E56937700441D0D /* Headers */,
+				688464BB1E56937700441D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PubCore;
+			productName = PubCore;
+			productReference = 688464BD1E56937700441D0D /* PubCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		688464C41E56937700441D0D /* PubCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688464DA1E56937700441D0D /* Build configuration list for PBXNativeTarget "PubCoreTests" */;
+			buildPhases = (
+				688464C11E56937700441D0D /* Sources */,
+				688464C21E56937700441D0D /* Frameworks */,
+				688464C31E56937700441D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				688464C81E56937700441D0D /* PBXTargetDependency */,
+				688464CA1E56937700441D0D /* PBXTargetDependency */,
+			);
+			name = PubCoreTests;
+			productName = PubCoreTests;
+			productReference = 688464C51E56937700441D0D /* PubCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FAF4E89E1CC99CCB00276C8B /* Lyles */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF4E8C11CC99CCB00276C8B /* Build configuration list for PBXNativeTarget "Lyles" */;
@@ -156,10 +288,12 @@
 				FAF4E89B1CC99CCB00276C8B /* Sources */,
 				FAF4E89C1CC99CCB00276C8B /* Frameworks */,
 				FAF4E89D1CC99CCB00276C8B /* Resources */,
+				688464D91E56937700441D0D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				688464D11E56937700441D0D /* PBXTargetDependency */,
 			);
 			name = Lyles;
 			productName = Lyles;
@@ -193,6 +327,15 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Grinnell AppDev";
 				TargetAttributes = {
+					688464BC1E56937700441D0D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					688464C41E56937700441D0D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF4E89E1CC99CCB00276C8B;
+					};
 					FAF4E89E1CC99CCB00276C8B = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -217,11 +360,27 @@
 			targets = (
 				FAF4E89E1CC99CCB00276C8B /* Lyles */,
 				FAF4E8B71CC99CCB00276C8B /* LylesTests */,
+				688464BC1E56937700441D0D /* PubCore */,
+				688464C41E56937700441D0D /* PubCoreTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		688464BB1E56937700441D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688464C31E56937700441D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAF4E89D1CC99CCB00276C8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +401,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		688464B81E56937700441D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688464C11E56937700441D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688464CD1E56937700441D0D /* PubCoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAF4E89B1CC99CCB00276C8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +439,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		688464C81E56937700441D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 688464BC1E56937700441D0D /* PubCore */;
+			targetProxy = 688464C71E56937700441D0D /* PBXContainerItemProxy */;
+		};
+		688464CA1E56937700441D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF4E89E1CC99CCB00276C8B /* Lyles */;
+			targetProxy = 688464C91E56937700441D0D /* PBXContainerItemProxy */;
+		};
+		688464D11E56937700441D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 688464BC1E56937700441D0D /* PubCore */;
+			targetProxy = 688464D01E56937700441D0D /* PBXContainerItemProxy */;
+		};
 		FAF4E8BA1CC99CCB00276C8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FAF4E89E1CC99CCB00276C8B /* Lyles */;
@@ -284,6 +473,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		688464D41E56937700441D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PubCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Garrdy.PubCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		688464D51E56937700441D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PubCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Garrdy.PubCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		688464D61E56937700441D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = PubCoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Garrdy.PubCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyles.app/Lyles";
+			};
+			name = Debug;
+		};
+		688464D71E56937700441D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = PubCoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Garrdy.PubCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyles.app/Lyles";
+			};
+			name = Release;
+		};
 		FAF4E8BF1CC99CCB00276C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +684,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		688464D81E56937700441D0D /* Build configuration list for PBXNativeTarget "PubCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688464D41E56937700441D0D /* Debug */,
+				688464D51E56937700441D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		688464DA1E56937700441D0D /* Build configuration list for PBXNativeTarget "PubCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688464D61E56937700441D0D /* Debug */,
+				688464D71E56937700441D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FAF4E89A1CC99CCB00276C8B /* Build configuration list for PBXProject "Lyles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
