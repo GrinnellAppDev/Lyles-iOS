@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C63777E1E56930600327FA4 /* PubCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6377751E56930600327FA4 /* PubCore.framework */; };
+		7C6377851E56930600327FA4 /* PubCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6377841E56930600327FA4 /* PubCoreTests.swift */; };
+		7C6377871E56930600327FA4 /* PubCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6377771E56930600327FA4 /* PubCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C63778A1E56930600327FA4 /* PubCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6377751E56930600327FA4 /* PubCore.framework */; };
+		7C63778B1E56930600327FA4 /* PubCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6377751E56930600327FA4 /* PubCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA2163781DF65546001011A3 /* BeerMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2163761DF6545B001011A3 /* BeerMenuTableViewCell.m */; };
 		FA676BAB1DE3E27D0009086F /* BeerMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */; };
 		FA676BAD1DE3E3140009086F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA676BAC1DE3E3140009086F /* Main.storyboard */; };
@@ -19,6 +24,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7C63777F1E56930600327FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6377741E56930600327FA4;
+			remoteInfo = PubCore;
+		};
+		7C6377811E56930600327FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF4E89E1CC99CCB00276C8B;
+			remoteInfo = Lyles;
+		};
+		7C6377881E56930600327FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6377741E56930600327FA4;
+			remoteInfo = PubCore;
+		};
 		FAF4E8B91CC99CCB00276C8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
@@ -28,7 +54,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7C6377911E56930600327FA4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7C63778B1E56930600327FA4 /* PubCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7C6377751E56930600327FA4 /* PubCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PubCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6377771E56930600327FA4 /* PubCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PubCore.h; sourceTree = "<group>"; };
+		7C6377781E56930600327FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C63777D1E56930600327FA4 /* PubCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PubCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6377841E56930600327FA4 /* PubCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubCoreTests.swift; sourceTree = "<group>"; };
+		7C6377861E56930600327FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2163751DF6545B001011A3 /* BeerMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerMenuTableViewCell.h; sourceTree = "<group>"; };
 		FA2163761DF6545B001011A3 /* BeerMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerMenuTableViewCell.m; sourceTree = "<group>"; };
 		FA676BA91DE3E27D0009086F /* BeerMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeerMenuTableViewController.h; path = Lyles/BeerMenuTableViewController.h; sourceTree = "<group>"; };
@@ -49,10 +95,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7C6377711E56930600327FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C63777A1E56930600327FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C63777E1E56930600327FA4 /* PubCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAF4E89C1CC99CCB00276C8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C63778A1E56930600327FA4 /* PubCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +128,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C6377761E56930600327FA4 /* PubCore */ = {
+			isa = PBXGroup;
+			children = (
+				7C6377771E56930600327FA4 /* PubCore.h */,
+				7C6377781E56930600327FA4 /* Info.plist */,
+			);
+			path = PubCore;
+			sourceTree = "<group>";
+		};
+		7C6377831E56930600327FA4 /* PubCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6377841E56930600327FA4 /* PubCoreTests.swift */,
+				7C6377861E56930600327FA4 /* Info.plist */,
+			);
+			path = PubCoreTests;
+			sourceTree = "<group>";
+		};
 		FA2163791DF65556001011A3 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +160,8 @@
 			children = (
 				FAF4E8A11CC99CCB00276C8B /* Lyles */,
 				FAF4E8BB1CC99CCB00276C8B /* LylesTests */,
+				7C6377761E56930600327FA4 /* PubCore */,
+				7C6377831E56930600327FA4 /* PubCoreTests */,
 				FAF4E8A01CC99CCB00276C8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +171,8 @@
 			children = (
 				FAF4E89F1CC99CCB00276C8B /* Lyles.app */,
 				FAF4E8B81CC99CCB00276C8B /* LylesTests.xctest */,
+				7C6377751E56930600327FA4 /* PubCore.framework */,
+				7C63777D1E56930600327FA4 /* PubCoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +232,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7C6377721E56930600327FA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6377871E56930600327FA4 /* PubCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		7C6377741E56930600327FA4 /* PubCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6377901E56930600327FA4 /* Build configuration list for PBXNativeTarget "PubCore" */;
+			buildPhases = (
+				7C6377701E56930600327FA4 /* Sources */,
+				7C6377711E56930600327FA4 /* Frameworks */,
+				7C6377721E56930600327FA4 /* Headers */,
+				7C6377731E56930600327FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PubCore;
+			productName = PubCore;
+			productReference = 7C6377751E56930600327FA4 /* PubCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C63777C1E56930600327FA4 /* PubCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6377921E56930600327FA4 /* Build configuration list for PBXNativeTarget "PubCoreTests" */;
+			buildPhases = (
+				7C6377791E56930600327FA4 /* Sources */,
+				7C63777A1E56930600327FA4 /* Frameworks */,
+				7C63777B1E56930600327FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6377801E56930600327FA4 /* PBXTargetDependency */,
+				7C6377821E56930600327FA4 /* PBXTargetDependency */,
+			);
+			name = PubCoreTests;
+			productName = PubCoreTests;
+			productReference = 7C63777D1E56930600327FA4 /* PubCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FAF4E89E1CC99CCB00276C8B /* Lyles */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF4E8C11CC99CCB00276C8B /* Build configuration list for PBXNativeTarget "Lyles" */;
@@ -156,10 +288,12 @@
 				FAF4E89B1CC99CCB00276C8B /* Sources */,
 				FAF4E89C1CC99CCB00276C8B /* Frameworks */,
 				FAF4E89D1CC99CCB00276C8B /* Resources */,
+				7C6377911E56930600327FA4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7C6377891E56930600327FA4 /* PBXTargetDependency */,
 			);
 			name = Lyles;
 			productName = Lyles;
@@ -190,9 +324,19 @@
 		FAF4E8971CC99CCB00276C8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Grinnell AppDev";
 				TargetAttributes = {
+					7C6377741E56930600327FA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7C63777C1E56930600327FA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF4E89E1CC99CCB00276C8B;
+					};
 					FAF4E89E1CC99CCB00276C8B = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -217,11 +361,27 @@
 			targets = (
 				FAF4E89E1CC99CCB00276C8B /* Lyles */,
 				FAF4E8B71CC99CCB00276C8B /* LylesTests */,
+				7C6377741E56930600327FA4 /* PubCore */,
+				7C63777C1E56930600327FA4 /* PubCoreTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7C6377731E56930600327FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C63777B1E56930600327FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAF4E89D1CC99CCB00276C8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +402,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7C6377701E56930600327FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6377791E56930600327FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6377851E56930600327FA4 /* PubCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAF4E89B1CC99CCB00276C8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +440,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7C6377801E56930600327FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6377741E56930600327FA4 /* PubCore */;
+			targetProxy = 7C63777F1E56930600327FA4 /* PBXContainerItemProxy */;
+		};
+		7C6377821E56930600327FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF4E89E1CC99CCB00276C8B /* Lyles */;
+			targetProxy = 7C6377811E56930600327FA4 /* PBXContainerItemProxy */;
+		};
+		7C6377891E56930600327FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6377741E56930600327FA4 /* PubCore */;
+			targetProxy = 7C6377881E56930600327FA4 /* PBXContainerItemProxy */;
+		};
 		FAF4E8BA1CC99CCB00276C8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FAF4E89E1CC99CCB00276C8B /* Lyles */;
@@ -284,6 +474,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7C63778C1E56930600327FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PubCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grade.PubCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C63778D1E56930600327FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PubCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grade.PubCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C63778E1E56930600327FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = PubCoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grade.PubCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyles.app/Lyles";
+			};
+			name = Debug;
+		};
+		7C63778F1E56930600327FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = PubCoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grade.PubCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyles.app/Lyles";
+			};
+			name = Release;
+		};
 		FAF4E8BF1CC99CCB00276C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +695,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7C6377901E56930600327FA4 /* Build configuration list for PBXNativeTarget "PubCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C63778C1E56930600327FA4 /* Debug */,
+				7C63778D1E56930600327FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C6377921E56930600327FA4 /* Build configuration list for PBXNativeTarget "PubCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C63778E1E56930600327FA4 /* Debug */,
+				7C63778F1E56930600327FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FAF4E89A1CC99CCB00276C8B /* Build configuration list for PBXProject "Lyles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
